@@ -24,8 +24,8 @@
  */
 static int	error_syntax(char *arg)
 {
-	if ((*arg == '-' && ft_isdigit(*(arg + 1))) ||
-		(*arg == '+' && ft_isdigit(*(arg + 1))))
+	if ((*arg == '-' && ft_isdigit(*(arg + 1)))
+		|| (*arg == '+' && ft_isdigit(*(arg + 1))))
 		arg++;
 	while (*arg)
 	{
